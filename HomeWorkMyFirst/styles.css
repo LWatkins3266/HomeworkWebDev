@@ -67,3 +67,37 @@ footer {
     margin-bottom: 20px;
     text-decoration: bold;
 }
+{
+    box-sizing: border-box;
+}
+
+.poem-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.poem-card {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .poem-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
