@@ -3,25 +3,25 @@
 body {
     font-family: monospace, helvetica, sans-serif;
     margin: 20px;
-    background-color: #2c3e50;
+    background-color: #814ccb;
 }
 /* Header Styles */
 header {
-    background-color: #5a7d9a;
+    background-color: #de2040;
     font-size: 24px;
-    color: #d8b26e;
+    color: #db8f0c;
     padding: 20px;
     text-align: center;
     text-decoration: bold;
 }
 /* Navigation Styles */
 nav {
-    background-color: #34495e;
+    background-color: #18dcd9;
     padding: 10px;
     text-align: center;
 }
 nav a {
-    color: #d8b26e;
+    color: #e00505;
     text-decoration: bold;
     margin: 0 10px;
 }
